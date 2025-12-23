@@ -1,0 +1,57 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - heading "Welcome, Admin!" [level=2] [ref=e5]
+    - button "Log Out" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - heading "Book List" [level=2] [ref=e8]
+    - button "Add Book" [ref=e9] [cursor=pointer]
+    - table [ref=e10]:
+      - rowgroup [ref=e11]:
+        - row "Title Author Genre ISBN Publication Date Price Actions" [ref=e12]:
+          - columnheader "Title" [ref=e13]
+          - columnheader "Author" [ref=e14]
+          - columnheader "Genre" [ref=e15]
+          - columnheader "ISBN" [ref=e16]
+          - columnheader "Publication Date" [ref=e17]
+          - columnheader "Price" [ref=e18]
+          - columnheader "Actions" [ref=e19]
+      - rowgroup [ref=e20]:
+        - row "The Very Busy Spider Eric Carle Picture Book 9780694005000 31/08/1984 £6.99 Edit Delete" [ref=e21]:
+          - cell "The Very Busy Spider" [ref=e22]
+          - cell "Eric Carle" [ref=e23]
+          - cell "Picture Book" [ref=e24]
+          - cell "9780694005000" [ref=e25]
+          - cell "31/08/1984" [ref=e26]
+          - cell "£6.99" [ref=e27]
+          - cell "Edit Delete" [ref=e28]:
+            - button "Edit" [ref=e29] [cursor=pointer]
+            - button "Delete" [ref=e30] [cursor=pointer]
+        - row "The Cat in the Hat Dr. Seuss Children's Literature 9780394800011 11/03/1957 £7.99 Edit Delete" [ref=e31]:
+          - cell "The Cat in the Hat" [ref=e32]
+          - cell "Dr. Seuss" [ref=e33]
+          - cell "Children's Literature" [ref=e34]
+          - cell "9780394800011" [ref=e35]
+          - cell "11/03/1957" [ref=e36]
+          - cell "£7.99" [ref=e37]
+          - cell "Edit Delete" [ref=e38]:
+            - button "Edit" [ref=e39] [cursor=pointer]
+            - button "Delete" [ref=e40] [cursor=pointer]
+        - row "Charlotte's Web E.B. White Children's Fiction 9780064400558 14/10/1952 £8.99 Edit Delete" [ref=e41]:
+          - cell "Charlotte's Web" [ref=e42]
+          - cell "E.B. White" [ref=e43]
+          - cell "Children's Fiction" [ref=e44]
+          - cell "9780064400558" [ref=e45]
+          - cell "14/10/1952" [ref=e46]
+          - cell "£8.99" [ref=e47]
+          - cell "Edit Delete" [ref=e48]:
+            - button "Edit" [ref=e49] [cursor=pointer]
+            - button "Delete" [ref=e50] [cursor=pointer]
+    - generic [ref=e51]:
+      - button "Previous" [disabled] [ref=e52] [cursor=pointer]
+      - generic [ref=e53]: Page 1 of 1
+      - button "Next" [disabled] [ref=e54] [cursor=pointer]
+    - 'heading "Total Book Titles: 3" [level=3] [ref=e56]'
+```
